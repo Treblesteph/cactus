@@ -10,28 +10,28 @@
 			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus2.png'
 		},
 		{
-			src: "/cactus3.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus3.png'
 		},
 		{
-			src: "/cactus4.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus4.png'
 		},
 		{
-			src: "/cactus5.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus5.png'
 		},
 		{
-			src: "/cactus6.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus6.png'
 		},
 		{
-			src: "/cactus7.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus7.png'
 		},
 		{
-			src: "/cactus8.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus8.png'
 		},
 		{
-			src: "/cactus9.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus9.png'
 		},
 		{
-			src: "/cactus10.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus10.png'
 		}
 		// {
 		// 	src: "/cactus11.png"
@@ -307,8 +307,8 @@
 </script>
 
 <main>
-	<img src='https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus0.png'/>
-	<h1>100 Cactus Project</h1>
+	<img id='title' src='https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus0.png'/>
+	<h1>A cactus 🌵 100 ways</h1>
 	<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
 	<Images {images} gutter={5} />
@@ -321,6 +321,10 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	#title {
+		width: 30%;
 	}
 
 	h1 {
