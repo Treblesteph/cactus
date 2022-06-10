@@ -4,35 +4,35 @@
 	import { Images } from "svelte-images";
 	const images = [
 		{
-			src: "/cactus1.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus1.png'
 		},
 		{
-			src: "/cactus2.png"
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus2.png'
+		},
+		{
+			src: "/cactus3.png"
+		},
+		{
+			src: "/cactus4.png"
+		},
+		{
+			src: "/cactus5.png"
+		},
+		{
+			src: "/cactus6.png"
+		},
+		{
+			src: "/cactus7.png"
+		},
+		{
+			src: "/cactus8.png"
+		},
+		{
+			src: "/cactus9.png"
+		},
+		{
+			src: "/cactus10.png"
 		}
-		// {
-		// 	src: "/cactus3.png"
-		// },
-		// {
-		// 	src: "/cactus4.png"
-		// },
-		// {
-		// 	src: "/cactus5.png"
-		// },
-		// {
-		// 	src: "/cactus6.png"
-		// },
-		// {
-		// 	src: "/cactus7.png"
-		// },
-		// {
-		// 	src: "/cactus8.png"
-		// },
-		// {
-		// 	src: "/cactus9.png"
-		// },
-		// {
-		// 	src: "/cactus10.png"
-		// },
 		// {
 		// 	src: "/cactus11.png"
 		// },
@@ -307,8 +307,9 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<img src='https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus0.png'/>
+	<h1>100 Cactus Project</h1>
+	<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
 	<Images {images} gutter={5} />
 </main>
