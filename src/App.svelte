@@ -2,6 +2,7 @@
 	export let name;
 
 	import { Images } from "svelte-images";
+	const imgs = [...Array(100)].map((x, i) => { src: `https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus${i}.png`})
 	const images = [
 		{
 			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus1.png'
@@ -242,67 +243,67 @@
 		},
 		{
 			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus80.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus81.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus82.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus83.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus84.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus85.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus86.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus87.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus88.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus89.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus90.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus91.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus92.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus93.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus94.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus95.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus96.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus97.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus98.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus99.png'
+		},
+		{
+			src: 'https://raw.githubusercontent.com/Treblesteph/cactus/main/src/cactus100.png'
 		}
-		// {
-		// 	src: "/cactus81.png"
-		// },
-		// {
-		// 	src: "/cactus82.png"
-		// },
-		// {
-		// 	src: "/cactus83.png"
-		// },
-		// {
-		// 	src: "/cactus84.png"
-		// },
-		// {
-		// 	src: "/cactus85.png"
-		// },
-		// {
-		// 	src: "/cactus86.png"
-		// },
-		// {
-		// 	src: "/cactus87.png"
-		// },
-		// {
-		// 	src: "/cactus88.png"
-		// },
-		// {
-		// 	src: "/cactus89.png"
-		// },
-		// {
-		// 	src: "/cactus90.png"
-		// },
-		// {
-		// 	src: "/cactus91.png"
-		// },
-		// {
-		// 	src: "/cactus92.png"
-		// },
-		// {
-		// 	src: "/cactus93.png"
-		// },
-		// {
-		// 	src: "/cactus94.png"
-		// },
-		// {
-		// 	src: "/cactus95.png"
-		// },
-		// {
-		// 	src: "/cactus96.png"
-		// },
-		// {
-		// 	src: "/cactus97.png"
-		// },
-		// {
-		// 	src: "/cactus98.png"
-		// },
-		// {
-		// 	src: "/cactus99.png"
-		// },
-		// {
-		// 	src: "/cactus100.png"
-		// },
 	];
 </script>
 
